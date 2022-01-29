@@ -1,5 +1,7 @@
 package rest_api03RepositoryServiceController;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,5 +15,10 @@ public class StudentBean04Service {
 			return studentRepo.findById(id).get();
 		}
 		return new StudentBean04();
+	}
+	
+	public List<StudentBean04> findAllStudents() {
+		
+		return studentRepo.findAll();		
 	}
 }
