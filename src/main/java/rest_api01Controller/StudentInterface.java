@@ -1,4 +1,4 @@
-package com.springboot.rest_api01;
+package rest_api01Controller;
 
 public interface StudentInterface {
 	String study();

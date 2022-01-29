@@ -1,4 +1,4 @@
-package com.springboot.rest_api02;
+package rest_api02ServiceController;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
-import com.springboot.rest_api01.StudentBean01;
+import rest_api01Controller.StudentBean01;
 
 @Service
 public class StudentBean03Service {

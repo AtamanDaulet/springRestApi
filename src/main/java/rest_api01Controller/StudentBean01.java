@@ -1,4 +1,4 @@
-package com.springboot.rest_api01;
+package rest_api01Controller;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RestController;

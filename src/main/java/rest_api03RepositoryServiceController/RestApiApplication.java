@@ -1,4 +1,4 @@
-package com.springboot.rest_api02;
+package rest_api03RepositoryServiceController;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
