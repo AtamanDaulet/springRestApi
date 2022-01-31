@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class StudentBean04Config {
-	@Bean
+	@Bean  //Used just in method level if the method is returning an object
 	CommandLineRunner commandLineRunner(StudentBean04Repository studentRepo) {
 		return args -> {
 			StudentBean04 std1 = new StudentBean04(101L, "Ali Can" , "ac@gmail.com" , LocalDate.of(2002, 3, 12));
